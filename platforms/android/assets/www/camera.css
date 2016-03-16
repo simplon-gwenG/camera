@@ -1,0 +1,5 @@
+#image {
+-webkit-transform: rotate(90deg); /*permet la otation de l'image*/
+width: 100%;
+height: 100%;
+}
