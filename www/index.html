@@ -11,13 +11,15 @@
     <script src="cordova.js" type="text/javascript"></script>
     <script src="js/index.js" type="text/javascript"></script>
     <link rel="stylesheet" href="camera.css" type="text/css" />
-    <title>Camera Cordova Plugin</title>
+    <title>MaPhotoKbine</title>
 </head>
 
 <body>
+  <div class="header">
     <button onclick="capturePhoto();">Capture Photo</button><br>
     <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo
     Library</button><br>
+  </div>
     <img id="image" src="" style="display:none;"><!--display none permet de ne pas avoir le cadre avant la prise de photo -->
 </body>
 </html>
