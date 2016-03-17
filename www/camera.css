@@ -8,7 +8,9 @@
 }
 
 #image {
--webkit-transform: rotate(90deg); /*permet la otation de l'image*/
-width: 100%;
-height: 100%;
+-webkit-transform: rotate(90deg); /*permet la rotation de l'image*/
+margin-top: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
