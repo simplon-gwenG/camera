@@ -44,8 +44,8 @@ galleryImage.style.display = 'block';
 //
 galleryImage.src = imageURI;
 }
+
 // A button will call this function
-//
 
 function capturePhoto() {
 // Take picture using device camera and retrieve image as base64-encoded string
@@ -57,21 +57,8 @@ destinationType: destinationType.FILE_URI,
 saveToPhotoAlbum: true
 });
 }
-// A button will call this function
-//
 
-function getPhoto(source) {
-// Retrieve image file location from specified source
-navigator.camera.getPicture(onPhotoURISuccess, onFail, {
-quality: 30,
-targetWidth: 600,
-targetHeight: 600,
-destinationType: destinationType.FILE_URI,
-sourceType: source
-});
-}
 // Called if something bad happens.
-//
 
 function onFail(message) {
 //alert('Failed because: ' + message);
